@@ -1,0 +1,26 @@
+include <stdio.h>
+#include <iostream>
+using namespace std; 
+int main(){
+
+    int Hours;
+    int Hour = 0;
+    int Distancetravel = 0;
+    int Momentum = 0;
+    cout << "DISTANCE TRAVEL" << endl ;
+    
+    cout << "Enter the speed of any vehicle in (mp/h)"<< endl ;
+    cin >> Momentum ;
+    cout << "Enter the time of vehicle that travel in hours" << endl ;
+    cin >> Hours ;
+     cout <<("Hours                                        Distance Traveled") << endl;
+     cout << ("_________________________________________________________________") << endl;
+    for (int R = 0; R < Hours; R++){
+          Hour++; 
+      cout << Hour << " time" << "                " << (Momentum*Hour)<< " Miles" << endl;
+      
+      
+    }
+
+    return 0;
+}
