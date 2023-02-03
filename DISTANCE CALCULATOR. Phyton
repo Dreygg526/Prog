@@ -1,0 +1,14 @@
+Momentum = 0
+loop = 0
+print("Énter the speed of any vehicle in (mp/h)")
+Distancetravel = (int(input("")))
+print("Enter the time of vehicle that travel in hours")
+Hours = (int(input("")))
+
+print("Hours                                        Distance Traveled")
+print("_________________________________________________________________")
+        
+while loop < Hours:
+     loop += 1
+     Momentum += 1
+     print(Momentum, "Time" , "                   ",(Distancetravel*Momentum), "Miles")
